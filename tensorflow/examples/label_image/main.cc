@@ -232,7 +232,8 @@ int main(int argc, char* argv[]) {
   // These are the command-line flags the program can understand.
   // They define where the graph and input data is located, and what kind of
   // input the model expects. If you train your own model, or use something
-  // other than GoogLeNet you'll need to update these.
+  // other than GoogLeNet you'll need to update these
+  
   string image = "tensorflow/examples/label_image/data/grace_hopper.jpg";
   string graph =
       "tensorflow/examples/label_image/data/"
